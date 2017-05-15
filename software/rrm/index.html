@@ -14,8 +14,14 @@
 <body>
 <div class="container-fluid">
     <div class="well">
-        <p>software/rrm</p>
+        <p>Downloading...</p>
     </div>
 </div>
+<script>
+    function download_redirect() {
+        window.location = "https://s3-us-west-1.amazonaws.com/redsolofox-test/RedsResourceMonitorInstaller.msi";
+    }
+</script>
+<script>document.onload = download_redirect()</script>
 </body>
 </html>
